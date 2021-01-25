@@ -1,0 +1,29 @@
+/*
+DEPARTMENTS
+*/
+DROP TABLE IF EXISTS departments;
+
+/*
+DEPARTMENTS - EMPLOYEES
+*/
+DROP TABLE IF EXISTS dept_emp;
+
+/*
+DEPARTMENTS - MANAGER
+*/
+DROP TABLE IF EXISTS dept_manager;
+
+/*
+EMPLOYEES
+*/
+DROP TABLE IF EXISTS employees;
+
+/*
+DEPARTMENTS - SALARIES
+*/
+DROP TABLE IF EXISTS salaries;
+
+/*
+DEPARTMENTS - titles
+*/
+DROP TABLE IF EXISTS titles;
