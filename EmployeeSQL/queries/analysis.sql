@@ -49,3 +49,34 @@ SELECT last_name, COUNT(last_name) AS lastname_count
 FROM employees
 GROUP BY last_name
 ORDER BY lastname_count DESC;
+
+-- Epilogue
+SELECT first_name, last_name
+FROM employees
+WHERE emp_no = 499942;
+/*
+                      ________            
+                  , -‘”          ``~ ,         
+               , -”                  “- ,      
+             ,/                        ”:,    
+           ,?                           \,   
+          /                              ,}  
+         /                           ,:`^` }  
+        /                          ,:”     /   
+       ?   __                     :`      /   
+       /__ (   “~-,_               ,:`     /    
+      /(_  ”~,_    “~,_          ,:`    _/      
+     { _$;_   ”=,_    “-,_    , -~-,}, ~”;/  }      
+      ((   *~_    ”=- _   “;,, /`  /”       /      
+  ,,,___ \`~,   “~ ,          `   }       /       
+      (  `=-,,    `            (   ;_,,-”        
+      / `~,   `-                \   /\          
+       \`~ *-,                   |, /   \,__      
+,,_     } >- _\                  |       `=~-,  
+   `=~-,_\_   `\,                 \            
+          `=~-,, \,                \            
+                `:,,              `\       __ 
+                   `=-,          ,%`>--==``    
+                    _\      _,-%    `\        
+                  ,<` _|_,-&``        `\       
+*/
